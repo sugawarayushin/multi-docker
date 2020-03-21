@@ -1,5 +1,5 @@
 language: generic
-sudo: require
+sudo: required
 services:
   - docker
 
@@ -21,4 +21,4 @@ after_success:
   - docker push sugawarayushin/multi-nginx
   - docker push sugawarayushin/multi-server
   - docker push sugawarayushin/multi-worker
-  
+
